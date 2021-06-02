@@ -3,7 +3,10 @@
 This is a simple proxy server that parses http requests and either lets the client and server exchange some data via HTTP 
 or open TSL connection and tunnel all the data between them. 
 
-To run this proxy simply start the main.kt (fun main) in your IDE or run the application with any other means.
+To run this proxy simply start the main.kt (fun main) in your IDE or run the .jar with command line:
+```
+java -jar https-proxy.main.jar
+```
 
 Proxy server starts with the IP address of its host machine and port with number "3000". 
 
